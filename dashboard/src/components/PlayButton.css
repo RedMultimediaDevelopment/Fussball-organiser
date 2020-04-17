@@ -1,0 +1,19 @@
+.PlayButton{
+  position: absolute;
+  left: 5%;
+  top:20%;
+  display: table;
+  background-color: red;
+  width: 250px;
+  height: 250px;
+  color: #fff;
+  border-radius: 30px 30px 30px 30px;
+  display: table;
+}
+.PlayButton_text{
+  text-align: center;
+  width: 250px;
+  height: 250px;
+  display: table-cell;
+   vertical-align: middle;
+}
