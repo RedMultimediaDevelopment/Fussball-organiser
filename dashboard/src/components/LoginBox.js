@@ -74,6 +74,10 @@ class LoginBoxComponent extends React.Component {
    // if (this.handleValidation(password, Username)) {
    //  onUserSubscribe(password, Username);
    // }
+   fetch('https://localhost:9070/v1/login', {
+     method: 'POST',
+     body: JSON.stringify({ Username, password }),
+   })
  }
 
 
