@@ -16,7 +16,7 @@ function App() {
 
               <Switch>
                     <Route path= "/login">
-                      <LoginScreen />
+                      <Dashboard />
                     </Route>
                     <Redirect from="*" to="/login" />
 

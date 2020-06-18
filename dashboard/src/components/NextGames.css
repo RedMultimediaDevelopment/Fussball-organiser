@@ -1,0 +1,22 @@
+.NextGames{
+  position: absolute;
+  right: 27%;
+  top: 15%;
+  display: table;
+  background-color: #ffedec;
+  width: 21%;
+  height: 350px;
+  color: black;
+  display: table;
+}
+.NextGames_text{
+  text-align: center;
+  font-size: 8px;
+  line-height: 50px;
+  padding-left: 10px;
+  padding-top: 10px;
+  width: 21%;
+  height: 250px;
+  display: table-cell;
+   vertical-align: top;
+}

@@ -1,19 +1,35 @@
-.PlayButton{
+.PlayButton {
   position: absolute;
   left: 4%;
-  top:20%;
+  top: 15%;
   display: table;
-  background-color: red;
-  width: 250px;
+  background-color: #373737;
   height: 250px;
+  width: 21%;
   color: #fff;
-  border-radius: 30px 30px 30px 30px;
   display: table;
 }
 .PlayButton_text{
-  text-align: center;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 10px;
   width: 250px;
-  height: 250px;
   display: table-cell;
-   vertical-align: middle;
+   vertical-align: top;
+}
+
+.PlayButton_background{
+  position: absolute;
+  bottom: 0px;
+  right: -15px;
+  width: 200px;
+  height: 200px;
+
+  background-image: url(../assets/pb-normal.png);
+  background-size: cover;
+}
+
+.PlayButton:hover .PlayButton_background {
+  background-image: url(../assets/pb-hover.png);
+  right: 5px;
 }

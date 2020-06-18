@@ -1,18 +1,21 @@
 .Leaderboard{
   position: absolute;
-  left: 5%;
-  top:50%;
+  left: 4%;
+  bottom: 5%;
   display: table;
+  background-color: #ff4a43;
+  width: 44%;
+  height: 380px;
 }
+
 .Leaderboard_header{
-  background-color:red;
-  border-radius: 30px 30px 0px 0px;
   text-align:center;
   vertical-align: middle;
-  line-height: 100px;
-  color: #fff;
-    width: 500px;
+  line-height: 70px;
+  color: white;
+    width: 100%;
     height: 100px;
+  font-size: 8px;
 }
 .Leaderboard_index {
   border-bottom: 1px solid black;

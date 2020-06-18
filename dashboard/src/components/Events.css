@@ -1,0 +1,19 @@
+.Events {
+  position: absolute;
+  right: 4%;
+  bottom: 5%;
+  display: table;
+  background-color: #373737;
+  height: 300px;
+  width: 44%;
+  color: #fff;
+  display: table;
+}
+.Events_text{
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 10px;
+  width: 250px;
+  display: table-cell;
+   vertical-align: top;
+}

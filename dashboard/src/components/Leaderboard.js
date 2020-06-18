@@ -7,7 +7,7 @@ export class Leaderboard extends React.Component {
     return (
       <div class="Leaderboard">
           <div className="Leaderboard_header">
-          <h1>Leaderboard</h1>
+          <h1>Algemeen klassement</h1>
           </div>
           <div className="Leaderboard_index">
             <ul>
