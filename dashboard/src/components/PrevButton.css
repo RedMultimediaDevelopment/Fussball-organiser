@@ -1,0 +1,14 @@
+
+.PrevButton {
+	position: fixed;
+
+	width: 20px;
+	height: 60px;
+	left: 5%;
+	top: 10px;
+
+	background-image: url(../assets/backButton.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}

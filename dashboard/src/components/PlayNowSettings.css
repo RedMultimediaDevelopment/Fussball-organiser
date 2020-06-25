@@ -1,0 +1,161 @@
+.PlayNowSettings { 
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+
+	top: 12%;
+
+	width: 30%;
+	height: 750px;
+}
+
+
+
+
+.PlayNowSettings_players {
+	width: 100%;
+	height: 150px;
+	background-color: #ff4a43;
+}
+
+.PlayNowSettings_players_text {
+	width: 100%;
+	height: 30px;
+	color: white;
+	text-align: center;
+	padding-top: 5px;
+}
+
+.PlayNowSettings_players_v {
+	width: 100%;
+	height: 120px;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 10px;
+	padding-left: 80px;
+	padding-right: 80px;
+}
+
+.PlayNowSettings_players_1v1 {
+	width: 30%;
+	margin-bottom: 10px;
+	border: 3px solid #373737;
+	border-radius: 5px;
+	background-image: url(../assets/1vs1Grey.png);
+  	background-size: contain;
+  	background-repeat: no-repeat;
+  	background-position: center;
+  	padding: 15px;
+  	background-origin: content-box;
+}
+
+.PlayNowSettings_players_2v2 {
+	width: 30%;
+	margin-bottom: 10px;
+	border: 3px solid #373737;
+	border-radius: 5px;
+	background-image: url(../assets/2vs2Grey.png);
+  	background-size: contain;
+  	background-repeat: no-repeat;
+  	background-position: center;
+  	padding-top: 15px;
+  	padding-bottom: 15px;
+  	background-origin: content-box;
+}
+
+.PlayNowSettings_players_1v1:hover {
+	background-color: #373737;
+	background-image: url(../assets/1vs1.png);
+}
+
+.PlayNowSettings_players_2v2:hover {
+	background-color: #373737;
+	background-image: url(../assets/2vs2.png);
+}
+
+
+
+
+
+.PlayNowSettings_table {
+	width: 100%;
+	height: 150px;
+	margin-top: 20px;
+	background-color: #ff4a43;
+}
+
+.PlayNowSettings_table_text {
+	width: 100%;
+	height: 30px;
+	color: white;
+	text-align: center;
+	padding-top: 5px;
+}
+
+.PlayNowSettings_table_t {
+	width: 100%;
+	height: 120px;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 10px;
+	padding-left: 80px;
+	padding-right: 80px;
+}
+
+.PlayNowSettings_table_t1 {
+	width: 30%;
+	margin-bottom: 10px;
+	border: 3px solid #373737;
+	border-radius: 5px;
+	background-image: url(../assets/table1Grey.png);
+  	background-size: contain;
+  	background-repeat: no-repeat;
+  	background-position: center;
+  	padding: 15px;
+  	background-origin: content-box;
+}
+
+.PlayNowSettings_table_t2 {
+	width: 30%;
+	margin-bottom: 10px;
+	border: 3px solid #373737;
+	border-radius: 5px;
+	background-image: url(../assets/table2Grey.png);
+  	background-size: contain;
+  	background-repeat: no-repeat;
+  	background-position: center;
+  	padding-top: 15px;
+  	padding-bottom: 15px;
+  	background-origin: content-box;
+}
+
+.PlayNowSettings_table_t1:hover {
+	background-color: #373737;
+	background-image: url(../assets/table1.png);
+}
+
+.PlayNowSettings_table_t2:hover {
+	background-color: #373737;
+	background-image: url(../assets/table2.png);
+}
+
+
+.PlayNowSettings_start {
+	width: 50%;
+	height: 70px;
+	border: 2px black solid;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	text-align: center;
+	line-height: 70px;
+	vertical-align: middle;
+	font-size: 20px;
+}
+
+.PlayNowSettings_start:hover {
+	background-color: black;
+	color: white;
+}
+

@@ -8,6 +8,10 @@ import {NextGames} from '../components/NextGames';
 import {PreGames} from '../components/PreGames';
 import {Events} from '../components/Events';
 
+import { withRouter } from "react-router";
+import {Link
+} from "react-router-dom";
+
 export class Dashboard extends React.Component {
 
 
@@ -17,7 +21,11 @@ render() {
     <Header />
     <BurgerMenu />
     <Leaderboard />
+
+    <Link to="/playGame">
     <PlayButton />
+    </Link>
+
     <ProfileButton />
     <NextGames />
     <PreGames />

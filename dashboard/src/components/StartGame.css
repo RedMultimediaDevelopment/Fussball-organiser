@@ -1,0 +1,22 @@
+.StartGame {
+
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	color: black;
+	top: 70%;
+	width: 20%;
+	height: 70px;
+	border: 2px black solid;
+	margin-top: 20px;
+	text-align: center;
+	line-height: 70px;
+	vertical-align: middle;
+	font-size: 20px;
+}
+
+.StartGame:hover {
+	background-color: black;
+	color: white;
+}
